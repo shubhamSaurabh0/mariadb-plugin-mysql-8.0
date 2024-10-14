@@ -1,5 +1,7 @@
 # Audit Plugin for MySQL Server
 
+*Both the primary AWS repo and other repos maintained are not up anymore. I used this code to create a new plugin for MySQL to support it on AWS Amazaon Linux Operating system. If you have a question, you can post it here however i am won't be that active on this. This is posted here as part of my responsibility to give back to the community*
+
 The Audit Plugin for MySQL Server is used by [Amazon RDS for
 MySQL](https://aws.amazon.com/rds/mysql/) to enable logging of server activity,
 typically for security and compliance purposes.

@@ -2092,7 +2092,7 @@ static int server_audit_init(void *p __attribute__((unused)))
     return 1;
 
   if (gethostname(servhost, sizeof(servhost)))
-    memcopy(servhost, "unknown", 7);
+    memcpy(servhost, "unknown", 7);
 
   servhost_len= (uint)strlen(servhost);
 
